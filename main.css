@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-color: #FFF6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#clock {
+    color: #2C687B;
+}
+
+#clock > h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+}
+
+.hours, .minutes, .seconds {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock > h2 {
+    margin: 8px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 24px;
+}
+
+.literal {
+    margin: 0 8px 0 8px;
+}
